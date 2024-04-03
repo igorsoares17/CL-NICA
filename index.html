@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Clínica Sistemas</title>
+    <link rel="stylesheet" type="text/css" href="CSS/init.css">
+    <link rel="stylesheet" type="text/css" href="CSS/patients.css">
+    <link rel="stylesheet" type ="text/css" href="CSS/gocad.css">
+    <link rel="shortcut icon" type="image/x-icon" href="IMG/exame.ico">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="first">
+
+            <h1 id="subtitle">Clínica Sistemas</h1>
+
+            <figure id="cxLogo">
+                <img id="imgLogo" src="IMG/saude.png" alt="logo">
+            </figure>
+
+            <div id="who">
+
+                <figure id="cxUser">
+                    <img id="imgUser" src="IMG/user.png" alt="usuário">
+                </figure>
+
+                <p id="secret">Secretário(a)</p>
+
+            </div>
+
+        </div>
+
+        <div id="second">
+
+            <nav>
+
+                <button class="new" id="btn1">INÍCIO</button>
+                <button class="new" id="btn2">PACIENTES</button>
+                <button class="new" id="btn3">CONSULTAS</button>
+    
+            </nav>
+
+            <button id="hour">Horário dos médicos</button>
+
+        </div>
+
+    </header>
+
+    <section id="fix">
+
+        <div id="center">
+
+            <div class="side" id="left">
+
+                <button class="dataInit" id="cads">
+
+                    <figure class="figInit">
+                        <img class="imgInit" src="IMG/people.png" alt="Imagem de pessoa">
+                    </figure>
+
+                    <div class="contentQtd">
+
+                        <h2 class="qtd" id="qtdCad">0</h2>
+                        <p class="inf">Pacientes cadastrados</p>
+
+                    </div>
+
+                </button>
+
+                <div class="btns">
+
+                    <button id="toCad" class="btnBottom">CADASTRAR</button>
+
+                </div>
+
+            </div>
+
+            <div class="side" id="right">
+
+                <button class="dataInit" id="consultations">
+
+                    <figure class="figInit">
+                        <img class="imgInit" src="IMG/calendario.png" alt="calendário">
+                    </figure>
+
+                    <div class="contentQtd">
+
+                        <h2 class="qtd" id="qtdCad">0</h2>
+                        <p class="inf">Consultas agendadas</p>
+
+                    </div>
+
+                </button>
+
+                <div class="btns">
+
+                    <button id="toAgend" class="btnBottom">AGENDAR</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="SCRIPTS/patient.js"></script>
+
+</body>
+</html>

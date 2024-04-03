@@ -1,0 +1,306 @@
+*{
+    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    width: 100%;
+    font-family: 'Segoe UI';
+}
+
+@media screen and (min-width: 1000px) {
+
+    body{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    header{
+
+        width: 100%;
+        height: 25vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first {
+
+        background-color: rgb(20, 43, 170);
+        width: 100%;
+        height: 65%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #subtitle{
+
+        width: 20%;
+        margin-left: 3%;
+        font-size: 2vw;
+        text-align: center;
+        color: #fff;
+    }
+
+    #cxLogo{
+
+        margin-left: 4%;
+        width: 4%;
+    }
+
+    #imgLogo{
+
+        width: 100%;
+    }
+
+    #who {
+
+        margin-left: 49.5%;
+        width: 14%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;    
+    }
+
+    #cxUser {
+
+        width: 30%;
+    }
+
+    #imgUser {
+
+        width: 100%; 
+    }
+
+    #secret {
+
+        margin-left: 5%;
+        width: 50%;
+        text-align: center;
+        color: #fff;
+        font-size: 1.2vw;
+
+    }
+
+    #second {
+
+        background-color: rgb(68, 53, 230);
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav{
+   
+        margin-left: 5%;
+        width: 45%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: #fff;
+
+    }
+
+    .new{
+
+        width: 20%;
+        font-size: 1.2vw;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        padding-top: 1.7%;
+        padding-bottom: 1.7%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: rgb(10, 137, 215);
+    }
+
+    .new:hover{
+ 
+        color: #000;     
+    }
+
+    #hour {
+
+        margin-left: 35%;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 13%;
+        text-align: center;
+        height: 80%;
+        font-size: 1.2vw;
+        color: #fff;
+        border-radius: 10px;
+        background-color: rgb(10, 137, 215);
+        cursor: pointer;
+    }
+
+    #hour:hover {
+
+        color: #000;
+    }
+
+    #fix {
+   
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #center {
+
+        height: 80%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .side {
+
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .dataInit{
+
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #cads {
+
+        border: 2px solid rgb(111, 111, 211);
+        background-color: #98c0de;
+    }
+
+    #cads:hover {
+
+        background-color: #6ca7d4;   
+    }
+
+    #consultations {    
+
+        
+        background-color: rgb(126, 239, 168);
+        border: 2px solid rgb(78, 170, 78);
+    }
+
+    #consultations:hover {
+
+        background-color: rgb(70, 221, 125);   
+    }
+
+    .figInit {
+
+        width: 30%;
+        height: 70%;
+    }
+
+    .imgInit {
+
+        width: 85%;
+        height: 100%;
+    }
+
+    .contentQtd {
+
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .qtd{
+
+        width: 15%;
+        margin-left: 75%;
+        font-size: 5vw;
+    }
+
+    .inf {
+
+        width: 90%;
+        text-align: right;
+        font-size: 1.3vw;
+    }
+
+    .btns {
+
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .btnBottom {
+
+        width: 40%;
+        font-size: 1.3vw;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #toCad {
+
+        background-color: rgb(10, 137, 215);
+    }
+
+    #toAgend {
+
+        background-color: rgb(45, 190, 45);
+    }
+
+    #toCad:hover {
+
+        background-color: rgb(0, 110, 255);    
+    }
+
+    #toAgend:hover {
+
+        background-color: rgb(34, 166, 34);     
+    }
+}
+

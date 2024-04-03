@@ -1,0 +1,126 @@
+@media screen and (min-width: 1000px) {
+
+    #formCad {
+
+        margin: auto;
+        padding: 2%;
+        min-width: 900px;
+        height: 96%;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid rgb(55, 55, 207);
+        border-radius: 20px;
+    }
+
+    .contents {
+
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocks {
+
+        width: 100%;
+        height: 12.5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .labelsdiv {
+
+        width: 23%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 13.5%;
+        text-align: right;
+        align-items: center;
+    }
+
+    .typeData {
+
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+
+        width: 50%;
+        border: 1px solid #000;
+        border-radius: 10px;
+        height: 4.5vh;
+        font-size: 0.8rem;
+        padding-left: 1%;
+    }
+
+    input[type="radio"][name="gender"] {
+
+        height: 6vh;
+        margin-left: 2%;
+    }
+
+    .mascFem {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1vw;
+        margin-left: 5%;
+    }
+
+    input[type="radio"][name="gest"] {
+
+        margin-left: 2%;
+    }
+
+    .divSelect {
+
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+    } 
+
+    select {
+
+        width: 80%;
+        border: 2px solid #000;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 13%;
+    }
+
+    .descges {
+
+        font-size: 1vw;
+        margin-left: 10%;   
+    }
+
+    #cxbtform {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .btnsform {
+
+        width: 27%;
+        color: #fff;
+        background-color: rgb(10, 137, 215);
+        border-radius: 10px;
+        font-size: 1vw;
+        text-align: center;
+        padding: 2%;
+        cursor: pointer;
+
+    }
+
+    .btnsform:hover {
+
+        color: #000;
+    }
+
+}
